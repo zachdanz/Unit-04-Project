@@ -10,4 +10,15 @@
     margin-right: auto;
   }
 
+// Lighten
+
+@mixin lighten {
+    transition-property: opacity ;
+    transition-duration: .2s;
+}
+
 // Breakpoint
+
+@mixin mq {
+    @media (min-width: $break-s) {@content;}
+}

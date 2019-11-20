@@ -1,4 +1,22 @@
 /* ============================================= */
+/*              Base Styles                      */
+/* ============================================= */
+
+* {
+    font-family: $font-stack-primary;
+    color: $color-text;
+    box-sizing: border-box;
+  }
+  
+p {
+    line-height: 1.45em;
+  }
+  
+a {
+    text-decoration: none;
+  }
+
+/* ============================================= */
 /*              Typography                       */
 /* ============================================= */
 
@@ -7,17 +25,17 @@
     margin-left: 10px;
   }
   
-  .headline-secondary {
+.headline-secondary {
     font-weight: 300;
     color: $color-text;
   }
   
-  .link {
+.link {
     color: $color-secondary;
     font-weight: 700;
   }
   
-  .blockquote {
+.blockquote {
     font-size: 1.5em;
     font-weight: 300;
     font-style: italic;

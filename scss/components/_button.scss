@@ -10,6 +10,13 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    transition: opacity, .3s;
+    &:hover {
+        opacity: 85%;
+    }
+    @include mq {
+        padding: 10px 30px;
+    }
   }
   
   .default {
@@ -21,7 +28,7 @@
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $color-info;
   }
   
   .success {
@@ -29,14 +36,10 @@
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $color-warning;
   }
 
-@media (min-width: $break-s) {
-
-  .btn {
-    padding: 10px 30px;
-  }
+@include mq {
   
   .btn + .btn {
     margin-left: 10px;
