@@ -80,7 +80,7 @@
       
       .centered {
         display: block;
-        @include: center;
+        @include center;
       }
       
       .row {
