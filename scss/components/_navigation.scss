@@ -24,3 +24,16 @@
     color: $white;
     background-color: $color-primary;
   }
+
+@media (min-width: $break-s) {
+
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-link {
+    flex-basis: 100px;
+  }
+}
