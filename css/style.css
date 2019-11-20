@@ -486,6 +486,12 @@ a {
   height: 1px;
   overflow: hidden; }
 
+/* line 27, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_form.scss */
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0; }
+
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */

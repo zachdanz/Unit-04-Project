@@ -3,24 +3,33 @@
 /* ============================================= */
 
 .form {
-    flex-basis: 100%;
-  }
+  flex-basis: 100%;
+}
   
-  .input{
-    display: block;
-    width: 94%;
-    margin: 10px auto 0;
-    border: none;
-    padding: 10px;
-    border-bottom: 5px solid $color-primary;
-  }
+.input{
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid $color-primary;
+}
   
-  .hidden {
-    position:absolute;
-    left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
-  }
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
   
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Error: Element legend not allowed as child of element form in this context. (Suppressing further errors from this subtree.)
+//This is an error message from the default index.html project.  Is this testing to see if we validate the code and giving and extra
+//task to try to figure out that's totally unrelated from what we've just learned? If so, very clever!
