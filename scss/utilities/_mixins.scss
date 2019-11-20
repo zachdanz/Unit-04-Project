@@ -1,9 +1,13 @@
 // ======================================
-//  Variables
+//  Mixins
 // ======================================
+
+//Center
 
 @mixin center {
     max-width: $max-width;
     margin-left: auto;
     margin-right: auto;
   }
+
+// Breakpoint
