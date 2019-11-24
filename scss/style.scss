@@ -3,20 +3,11 @@
 // ======================================
 
 // Utilities
-@import 'utilities/variables',
-        'utilities/mixins',
-        'utilities/index';
+@import 'utilities/index';
         
 // Base Styles     
-@import 'base/reset',
-        'base/index',
-        'base/typography';
+@import 'base/index';
 
 // Component Styles
-@import 'components/navigation',
-        'components/button',
-        'components/form',
-        'components/grid',
-        'components/index',
-        'components/images';
+@import 'components/index';
 
