@@ -427,37 +427,49 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  transition: opacity, .3s; }
-  /* line 14, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
-  .btn:hover {
-    opacity: 85%; }
+  transition: background-color, .3s; }
   @media (min-width: 768px) {
     /* line 5, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
     .btn {
       padding: 10px 30px; } }
 
-/* line 22, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
+/* line 19, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
 .default {
   background-color: #51ddfc; }
+  /* line 21, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
+  .default:hover {
+    background-color: #99edd9; }
 
 /* line 26, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
 .error {
   background-color: #e4757a; }
+  /* line 28, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
+  .error:hover {
+    background-color: #f1b5b8; }
 
-/* line 30, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
+/* line 33, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
 .info {
   background-color: #927bc1; }
+  /* line 35, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
+  .info:hover {
+    background-color: #bdafd9; }
 
-/* line 34, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
+/* line 40, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
 .success {
   background-color: #63cc82; }
+  /* line 42, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
+  .success:hover {
+    background-color: #9ddfb0; }
 
-/* line 38, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
+/* line 47, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
 .warning {
   background-color: #fd7856; }
+  /* line 49, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
+  .warning:hover {
+    background-color: #feb4a2; }
 
 @media (min-width: 768px) {
-  /* line 44, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
+  /* line 56, ../../../../../Users/zacharywilliambernarddanz/Documents/GitHub/Unit-04-Project/scss/components/_button.scss */
   .btn + .btn {
     margin-left: 10px; } }
 
